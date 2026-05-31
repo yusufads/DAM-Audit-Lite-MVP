@@ -255,11 +255,11 @@ ai_discoverability
 
 Question:
 
-Can AI systems reliably discover and identify your brand?
+Can AI systems such as ChatGPT, Gemini, Claude or Perplexity reliably discover your brand when its name is searched?
 
 Why It Matters:
 
-Brands must first be discoverable before they can be recommended.
+A brand cannot be recommended if it cannot first be discovered and identified by AI systems.
 
 ---
 
@@ -270,11 +270,11 @@ ai_accuracy
 
 Question:
 
-When AI systems mention your brand, is the information accurate and up to date?
+When AI systems describe your brand, is the information accurate, current and aligned with reality?
 
 Why It Matters:
 
-Incorrect AI-generated information can damage trust and perception.
+Incorrect AI-generated information can damage trust, reputation and customer confidence.
 
 ---
 
@@ -285,11 +285,11 @@ ai_association
 
 Question:
 
-Do AI systems associate your brand with the topics, services and expertise areas you want to be known for?
+Do AI systems associate your brand with the products, services, expertise and topics you want to be known for?
 
 Why It Matters:
 
-Correct associations increase recommendation relevance.
+Brands are increasingly discovered through topic association rather than direct brand searches.
 
 ---
 
@@ -300,11 +300,11 @@ ai_recommendation
 
 Question:
 
-Can your brand appear as a recommendation in relevant AI-generated answers?
+Can your brand appear as a recommendation when users ask AI systems for solutions within your category?
 
 Why It Matters:
 
-Recommendation visibility is one of the strongest indicators of AI presence.
+AI recommendation visibility is one of the strongest indicators of future digital discoverability.
 
 ---
 
@@ -315,11 +315,11 @@ ai_optimization
 
 Question:
 
-Have you intentionally optimized your digital presence for AI search and generative discovery?
+Has your brand intentionally implemented strategies to improve visibility in AI-driven search and generative discovery environments?
 
 Why It Matters:
 
-Intentional optimization increases future AI visibility potential.
+Brands that actively optimize for AI systems are more likely to gain future visibility advantages.
 
 ---
 
@@ -332,11 +332,11 @@ trust_signals
 
 Question:
 
-Does your brand visibly demonstrate trust through reviews, testimonials, certifications or credentials?
+Does your brand publicly display trust-building signals such as reviews, testimonials, certifications, awards or credentials?
 
 Why It Matters:
 
-Trust signals influence both human perception and AI confidence.
+Trust signals help both humans and AI systems evaluate credibility.
 
 ---
 
@@ -347,11 +347,11 @@ proof_signals
 
 Question:
 
-Does your brand provide evidence of expertise, outcomes or successful work?
+Does your brand provide verifiable proof of expertise, results, successful projects or customer outcomes?
 
 Why It Matters:
 
-Proof strengthens credibility and perceived competence.
+Evidence-based credibility is stronger than marketing claims.
 
 ---
 
@@ -362,11 +362,11 @@ differentiation
 
 Question:
 
-Can users clearly understand what makes your brand different from competitors?
+Can a potential customer clearly understand what makes your brand different from competitors?
 
 Why It Matters:
 
-Differentiation improves memorability and recommendation potential.
+Brands that cannot be differentiated are difficult for AI systems to recommend uniquely.
 
 ---
 
@@ -377,11 +377,11 @@ positioning_clarity
 
 Question:
 
-Does your brand communicate a clear and focused market position?
+Does your brand communicate a clear and focused positioning statement that defines its place in the market?
 
 Why It Matters:
 
-Positioning helps users and AI systems categorize the brand correctly.
+Positioning helps AI systems understand where the brand belongs within a category.
 
 ---
 
@@ -392,22 +392,8 @@ reputation_consistency
 
 Question:
 
-Is your brand perceived consistently across multiple digital touchpoints?
+Is your brand perceived consistently across your website, social media, reviews and third-party mentions?
 
 Why It Matters:
 
-Consistent perception strengthens trust and recognition.
-
----
-
-## Version Information
-
-Version: 1.0
-
-Total Categories: 5
-
-Total Signals: 25
-
-Total Questions: 25
-
-Question Type: Self Assessment
+Consistent perception strengthens trust, recognition and recommendation confidence.
