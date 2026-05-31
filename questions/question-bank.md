@@ -1,152 +1,193 @@
 # DAM Audit Lite Question Bank v1.0
 
-## Overview
-
-This document contains the master question bank for DAM Audit Lite.
-
-Each question is mapped to:
-
-* Category
-* Signal
-* Question
-* Explanation
-* Positive Report Message
-* Negative Report Message
-
-The question bank serves as the source of truth before JSON implementation.
+## Entity Presence
 
 ---
 
-# Entity Presence
-
-## EP1
+### EP1
 
 Signal: entity_foundation
 
-Question:
+Question EN:
 
 Does your brand have a clearly identifiable official website or primary digital home?
 
-Explanation:
+Question TR:
 
-AI systems need a reliable primary source to understand and validate a brand.
+Markanızın açık şekilde tanımlanabilen resmi bir web sitesi veya dijital merkezi bulunuyor mu?
 
-Positive Report Message:
+Description EN:
 
-Your brand has a clear digital foundation that supports entity recognition.
+AI systems need a reliable primary source to understand, verify and connect information about a brand.
 
-Negative Report Message:
+Description TR:
 
-Your brand lacks a strong primary digital source, making recognition more difficult.
+Yapay zekâ sistemleri bir markayı anlamak, doğrulamak ve ilişkilendirmek için güvenilir bir ana kaynağa ihtiyaç duyar.
+
+Positive Report Message EN:
+
+Your brand has a strong digital foundation that supports entity recognition.
+
+Positive Report Message TR:
+
+Markanız dijital varlık tanımlaması açısından güçlü bir temele sahiptir.
+
+Negative Report Message EN:
+
+Your brand lacks a clear primary digital source, making recognition more difficult.
+
+Negative Report Message TR:
+
+Markanızın belirgin bir dijital merkezi bulunmuyor ve bu durum dijital görünürlüğü zayıflatabilir.
 
 ---
 
-## EP2
+### EP2
 
 Signal: brand_identity
 
-Question:
+Question EN:
 
 Does your website clearly explain who your brand is, what it does and who it serves?
 
-Explanation:
+Question TR:
 
-Brands that clearly define themselves are easier for users and AI systems to understand.
+Web siteniz markanızın kim olduğunu, ne yaptığını ve kime hizmet verdiğini açık şekilde anlatıyor mu?
 
-Positive Report Message:
+Description EN:
 
-Your brand identity is clearly communicated.
+Clear brand identity improves understanding for both users and AI systems.
 
-Negative Report Message:
+Description TR:
+
+Net bir marka kimliği hem kullanıcıların hem de yapay zekâ sistemlerinin markayı doğru anlamasını sağlar.
+
+Positive Report Message EN:
+
+Your brand identity is clearly communicated across your primary digital assets.
+
+Positive Report Message TR:
+
+Marka kimliğiniz dijital varlıklarınız üzerinde net şekilde tanımlanmıştır.
+
+Negative Report Message EN:
 
 Your brand identity may be difficult for users and AI systems to understand.
 
+Negative Report Message TR:
+
+Marka kimliğiniz yeterince net olmadığı için kullanıcılar ve yapay zekâ sistemleri sizi doğru konumlandıramayabilir.
+
 ---
 
-## EP3
+### EP3
 
 Signal: expert_association
 
-Question:
+Question EN:
 
-Are identifiable experts, founders or representatives publicly associated with the brand?
+Are identifiable experts, founders or representatives publicly associated with your brand?
 
-Explanation:
+Question TR:
 
-Human expertise strengthens trust and entity association.
+Markanızla ilişkilendirilebilen kurucu, uzman veya temsilciler kamuya açık şekilde görünür durumda mı?
 
-Positive Report Message:
+Description EN:
+
+Visible human expertise strengthens trust, authority and entity association.
+
+Description TR:
+
+Görünür uzmanlık ve insan faktörü marka güvenilirliğini ve otoritesini artırır.
+
+Positive Report Message EN:
 
 Your brand benefits from visible expertise and leadership.
 
-Negative Report Message:
+Positive Report Message TR:
+
+Markanız görünür uzmanlık ve liderlik unsurlarından faydalanmaktadır.
+
+Negative Report Message EN:
 
 Your brand lacks visible human expertise signals.
 
+Negative Report Message TR:
+
+Markanızın arkasındaki uzmanlık ve liderlik yeterince görünür değildir.
+
 ---
 
-## EP4
+### EP4
 
 Signal: cross_platform_consistency
 
-Question:
+Question EN:
 
-Is your brand identity consistent across website, social media and external profiles?
+Is your brand identity consistent across your website, social media profiles and external platforms?
 
-Explanation:
+Question TR:
 
-Consistency helps AI systems connect brand signals across multiple sources.
+Marka kimliğiniz web siteniz, sosyal medya hesaplarınız ve dış platformlarda tutarlı şekilde kullanılıyor mu?
 
-Positive Report Message:
+Description EN:
 
-Your brand appears consistent across digital channels.
+Consistency helps AI systems merge signals from multiple sources into a single entity.
 
-Negative Report Message:
+Description TR:
 
-Inconsistent branding may weaken entity recognition.
+Tutarlılık, yapay zekâ sistemlerinin farklı kaynaklardan gelen sinyalleri tek bir marka altında birleştirmesine yardımcı olur.
+
+Positive Report Message EN:
+
+Your brand maintains strong consistency across digital channels.
+
+Positive Report Message TR:
+
+Markanız dijital kanallar arasında yüksek düzeyde tutarlılık göstermektedir.
+
+Negative Report Message EN:
+
+Inconsistent branding may weaken entity recognition and trust.
+
+Negative Report Message TR:
+
+Tutarsız marka kullanımı dijital algıyı ve marka tanınırlığını zayıflatabilir.
 
 ---
 
-## EP5
+### EP5
 
 Signal: business_legitimacy
 
-Question:
+Question EN:
 
-Can visitors easily find business information such as contact details, location and company information?
+Can visitors easily find business information such as contact details, company information and location?
 
-Explanation:
+Question TR:
 
-Accessible business information improves trust and legitimacy.
+Ziyaretçiler iletişim bilgileri, şirket bilgileri ve konum gibi kurumsal bilgilere kolayca ulaşabiliyor mu?
 
-Positive Report Message:
+Description EN:
 
-Your business information supports trust and discoverability.
+Accessible business information improves legitimacy, trust and discoverability.
 
-Negative Report Message:
+Description TR:
+
+Erişilebilir kurumsal bilgiler güven, meşruiyet ve keşfedilebilirlik açısından önemlidir.
+
+Positive Report Message EN:
+
+Your business information supports trust and legitimacy.
+
+Positive Report Message TR:
+
+Kurumsal bilgileriniz güven ve meşruiyet algısını desteklemektedir.
+
+Negative Report Message EN:
 
 Missing business information may reduce trust and credibility.
 
----
+Negative Report Message TR:
 
-# Authority Signals
-
-(AS1–AS5)
-
----
-
-# Knowledge Layer
-
-(KL1–KL5)
-
----
-
-# AI Visibility
-
-(AV1–AV5)
-
----
-
-# Perception Layer
-
-(PL1–PL5)
+Eksik kurumsal bilgiler marka güvenilirliğini olumsuz etkileyebilir.
