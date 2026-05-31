@@ -1,7 +1,113 @@
+```json
 {
-  "id": "EP1",
-  "question": "...",
-  "description": "...",
-  "positive_feedback": "...",
-  "negative_feedback": "..."
+  "version": "1.0",
+  "assessment_type": "self_assessment",
+  "framework": "GEO-DAM",
+  "max_score": 100,
+
+  "categories": [
+    {
+      "id": "entity_presence",
+      "name": "Entity Presence",
+      "weight": 20
+    },
+    {
+      "id": "authority_signals",
+      "name": "Authority Signals",
+      "weight": 20
+    },
+    {
+      "id": "knowledge_layer",
+      "name": "Knowledge Layer",
+      "weight": 20
+    },
+    {
+      "id": "ai_visibility",
+      "name": "AI Visibility",
+      "weight": 20
+    },
+    {
+      "id": "perception_layer",
+      "name": "Perception Layer",
+      "weight": 20
+    }
+  ],
+
+  "answer_model": [
+    {
+      "label": "No",
+      "value": 0
+    },
+    {
+      "label": "Partially",
+      "value": 2
+    },
+    {
+      "label": "Yes",
+      "value": 4
+    }
+  ],
+
+  "questions": [
+    {
+      "id": "EP1",
+      "category": "entity_presence",
+      "signal": "entity_foundation",
+      "type": "manual",
+      "weight": 4,
+      "question": {
+        "en": "Does your brand have a clearly identifiable official website that serves as its primary digital source?",
+        "tr": "Markanızın birincil dijital kaynağı olarak hizmet veren açıkça tanımlanabilir resmi bir web sitesi var mı?"
+      }
+    },
+
+    {
+      "id": "EP2",
+      "category": "entity_presence",
+      "signal": "brand_identity",
+      "type": "manual",
+      "weight": 4,
+      "question": {
+        "en": "Can a first-time visitor immediately understand who your brand is, what it does and who it serves?",
+        "tr": "Bir ziyaretçi markanızın kim olduğunu, ne yaptığını ve kime hizmet verdiğini hemen anlayabiliyor mu?"
+      }
+    },
+
+    {
+      "id": "EP3",
+      "category": "entity_presence",
+      "signal": "expert_association",
+      "type": "manual",
+      "weight": 4,
+      "question": {
+        "en": "Are identifiable experts, founders or representatives publicly associated with your brand?",
+        "tr": "Markanızla ilişkilendirilebilen uzmanlar, kurucular veya temsilciler kamuya açık şekilde görünür mü?"
+      }
+    },
+
+    {
+      "id": "EP4",
+      "category": "entity_presence",
+      "signal": "cross_platform_consistency",
+      "type": "manual",
+      "weight": 4,
+      "question": {
+        "en": "Does your brand maintain a consistent identity across websites, social profiles and external platforms?",
+        "tr": "Markanız web siteleri, sosyal profiller ve dış platformlarda tutarlı bir kimlik sergiliyor mu?"
+      }
+    },
+
+    {
+      "id": "EP5",
+      "category": "entity_presence",
+      "signal": "business_legitimacy",
+      "type": "manual",
+      "weight": 4,
+      "question": {
+        "en": "Can users easily verify your business through contact details, company information and public trust indicators?",
+        "tr": "Kullanıcılar iletişim bilgileri, şirket bilgileri ve güven göstergeleri üzerinden işletmenizi kolayca doğrulayabiliyor mu?"
+      }
+    }
+  ]
 }
+```
