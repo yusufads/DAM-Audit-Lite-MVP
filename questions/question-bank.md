@@ -1,22 +1,21 @@
 # DAM Audit Lite Question Bank v1.0
 
-## Overview
+## Purpose
 
-This document contains the official DAM Audit Lite question bank.
+This document contains the official question bank used by DAM Audit Lite.
 
-Each question measures a specific GEO-DAM signal.
+Each question is mapped to a specific GEO-DAM signal.
 
-Question Structure:
+The purpose of the question bank is to:
 
-* Signal
-* Question
-* Why It Matters
-* Positive Finding
-* Negative Finding
+* Measure Digital Perception Readiness
+* Support DAM Score calculation
+* Feed the Digital Perception Dataset
+* Serve as the source for future JSON implementations
 
 ---
 
-# ENTITY PRESENCE
+# Entity Presence
 
 ## EP1
 
@@ -29,15 +28,7 @@ Does your brand have a clearly identifiable official website that serves as its 
 
 Why It Matters:
 
-AI systems need a trusted source to understand, verify and connect information about a brand.
-
-Positive Finding:
-
-Your brand has a strong primary digital entity foundation.
-
-Negative Finding:
-
-Your brand lacks a clearly identifiable primary digital source.
+AI systems require a trusted primary source to understand, validate and connect information about a brand.
 
 ---
 
@@ -52,15 +43,7 @@ Can a first-time visitor immediately understand who your brand is, what it does 
 
 Why It Matters:
 
-Brands that clearly communicate their identity are easier for users and AI systems to understand.
-
-Positive Finding:
-
-Your brand identity is clearly defined and communicated.
-
-Negative Finding:
-
-Your brand identity may be unclear or difficult to interpret.
+Clear brand identity improves understanding for both users and AI systems.
 
 ---
 
@@ -75,15 +58,7 @@ Are identifiable experts, founders or representatives publicly associated with y
 
 Why It Matters:
 
-Visible expertise strengthens authority, trust and entity recognition.
-
-Positive Finding:
-
-Your brand benefits from visible expertise and leadership.
-
-Negative Finding:
-
-Your brand lacks strong human expertise signals.
+Visible expertise strengthens trust, authority and entity recognition.
 
 ---
 
@@ -98,15 +73,7 @@ Does your brand maintain a consistent identity across websites, social profiles 
 
 Why It Matters:
 
-Consistency helps AI systems connect fragmented signals into a unified entity.
-
-Positive Finding:
-
-Your brand demonstrates strong cross-platform consistency.
-
-Negative Finding:
-
-Your brand identity may appear fragmented across digital channels.
+Consistency helps AI systems connect multiple signals into a single entity.
 
 ---
 
@@ -117,23 +84,15 @@ business_legitimacy
 
 Question:
 
-Can users easily verify your business through contact information, company details and public trust indicators?
+Can users easily verify your business through contact details, company information and public trust indicators?
 
 Why It Matters:
 
-Verification signals improve legitimacy and confidence.
-
-Positive Finding:
-
-Your brand provides clear legitimacy and trust signals.
-
-Negative Finding:
-
-Your brand may lack enough publicly visible legitimacy signals.
+Verification signals improve legitimacy, trust and confidence.
 
 ---
 
-# AUTHORITY SIGNALS
+# Authority Signals
 
 ## AS1
 
@@ -142,19 +101,11 @@ external_validation
 
 Question:
 
-Has your brand been referenced, mentioned or acknowledged by independent third-party sources?
+Has your brand been acknowledged or referenced by independent third-party sources?
 
 Why It Matters:
 
 External validation increases credibility and trust.
-
-Positive Finding:
-
-Your brand benefits from independent validation.
-
-Negative Finding:
-
-Your brand lacks sufficient third-party validation.
 
 ---
 
@@ -169,15 +120,7 @@ Do trusted websites, organizations or industry sources reference your brand?
 
 Why It Matters:
 
-Citations help reinforce authority and recognition.
-
-Positive Finding:
-
-Your brand receives valuable external citations.
-
-Negative Finding:
-
-Your brand has limited citation strength.
+Citations help reinforce authority and digital recognition.
 
 ---
 
@@ -192,15 +135,7 @@ Has your brand appeared in news publications, industry media or professional pub
 
 Why It Matters:
 
-Media presence strengthens authority and discoverability.
-
-Positive Finding:
-
-Your brand demonstrates meaningful media visibility.
-
-Negative Finding:
-
-Your brand has limited media exposure.
+Media visibility strengthens authority and discoverability.
 
 ---
 
@@ -217,14 +152,6 @@ Why It Matters:
 
 Expert-led content strengthens topical authority.
 
-Positive Finding:
-
-Your brand demonstrates visible expert authority.
-
-Negative Finding:
-
-Your brand lacks sufficient expert-driven authority signals.
-
 ---
 
 ## AS5
@@ -238,19 +165,11 @@ Is your brand recognized within its industry, niche or professional ecosystem?
 
 Why It Matters:
 
-Industry recognition supports credibility and trust.
-
-Positive Finding:
-
-Your brand has established industry recognition.
-
-Negative Finding:
-
-Your brand has limited recognition within its industry.
+Industry recognition supports long-term credibility and trust.
 
 ---
 
-# KNOWLEDGE LAYER
+# Knowledge Layer
 
 ## KL1
 
@@ -259,9 +178,13 @@ knowledge_depth
 
 Question:
 
-Does your website provide detailed and comprehensive information about your products, services or expertise?
+Does your website provide comprehensive information about your products, services or expertise?
 
-...
+Why It Matters:
+
+Detailed information improves understanding for both users and AI systems.
+
+---
 
 ## KL2
 
@@ -272,7 +195,11 @@ Question:
 
 Can users easily find answers to common questions related to your business?
 
-...
+Why It Matters:
+
+Question-answer content supports AI retrieval and user understanding.
+
+---
 
 ## KL3
 
@@ -281,9 +208,13 @@ semantic_structure
 
 Question:
 
-Is your content organized using logical structure, categories and clear topic relationships?
+Is your content organized using logical structure, categories and topic relationships?
 
-...
+Why It Matters:
+
+Semantic structure helps machines interpret information correctly.
+
+---
 
 ## KL4
 
@@ -294,7 +225,11 @@ Question:
 
 Does your brand regularly publish educational, expert-level or thought leadership content?
 
-...
+Why It Matters:
+
+Educational content strengthens expertise and topical authority.
+
+---
 
 ## KL5
 
@@ -305,11 +240,13 @@ Question:
 
 Is your content structured in a way that search engines and AI systems can easily interpret?
 
-...
+Why It Matters:
+
+Machine-readable content improves visibility and discoverability.
 
 ---
 
-# AI VISIBILITY
+# AI Visibility
 
 ## AV1
 
@@ -320,7 +257,11 @@ Question:
 
 Can AI systems reliably discover and identify your brand?
 
-...
+Why It Matters:
+
+Brands must first be discoverable before they can be recommended.
+
+---
 
 ## AV2
 
@@ -329,9 +270,13 @@ ai_accuracy
 
 Question:
 
-When AI systems mention your brand, is the information accurate and up-to-date?
+When AI systems mention your brand, is the information accurate and up to date?
 
-...
+Why It Matters:
+
+Incorrect AI-generated information can damage trust and perception.
+
+---
 
 ## AV3
 
@@ -342,7 +287,11 @@ Question:
 
 Do AI systems associate your brand with the topics, services and expertise areas you want to be known for?
 
-...
+Why It Matters:
+
+Correct associations increase recommendation relevance.
+
+---
 
 ## AV4
 
@@ -353,7 +302,11 @@ Question:
 
 Can your brand appear as a recommendation in relevant AI-generated answers?
 
-...
+Why It Matters:
+
+Recommendation visibility is one of the strongest indicators of AI presence.
+
+---
 
 ## AV5
 
@@ -364,11 +317,13 @@ Question:
 
 Have you intentionally optimized your digital presence for AI search and generative discovery?
 
-...
+Why It Matters:
+
+Intentional optimization increases future AI visibility potential.
 
 ---
 
-# PERCEPTION LAYER
+# Perception Layer
 
 ## PL1
 
@@ -379,7 +334,11 @@ Question:
 
 Does your brand visibly demonstrate trust through reviews, testimonials, certifications or credentials?
 
-...
+Why It Matters:
+
+Trust signals influence both human perception and AI confidence.
+
+---
 
 ## PL2
 
@@ -390,7 +349,11 @@ Question:
 
 Does your brand provide evidence of expertise, outcomes or successful work?
 
-...
+Why It Matters:
+
+Proof strengthens credibility and perceived competence.
+
+---
 
 ## PL3
 
@@ -401,7 +364,11 @@ Question:
 
 Can users clearly understand what makes your brand different from competitors?
 
-...
+Why It Matters:
+
+Differentiation improves memorability and recommendation potential.
+
+---
 
 ## PL4
 
@@ -412,7 +379,11 @@ Question:
 
 Does your brand communicate a clear and focused market position?
 
-...
+Why It Matters:
+
+Positioning helps users and AI systems categorize the brand correctly.
+
+---
 
 ## PL5
 
@@ -423,4 +394,20 @@ Question:
 
 Is your brand perceived consistently across multiple digital touchpoints?
 
-...
+Why It Matters:
+
+Consistent perception strengthens trust and recognition.
+
+---
+
+## Version Information
+
+Version: 1.0
+
+Total Categories: 5
+
+Total Signals: 25
+
+Total Questions: 25
+
+Question Type: Self Assessment
