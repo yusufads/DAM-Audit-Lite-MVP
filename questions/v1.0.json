@@ -1,4 +1,316 @@
+```json
 {
   "version": "1.0",
-  "questions": []
+  "product": "DAM Audit Lite",
+  "framework": "GEO-DAM Framework",
+  "language": "en",
+  "assessment_type": "self_assessment",
+  "scoring": {
+    "answer_options": [
+      {
+        "label": "No",
+        "value": 0
+      },
+      {
+        "label": "Partially",
+        "value": 2
+      },
+      {
+        "label": "Yes",
+        "value": 4
+      }
+    ],
+    "max_score_per_question": 4,
+    "questions_per_category": 5,
+    "max_score_per_category": 20,
+    "max_total_score": 100
+  },
+  "categories": [
+    {
+      "id": "entity_presence",
+      "name": "Entity Presence",
+      "description": "Measures whether the brand exists as a clear and identifiable digital entity.",
+      "questions": [
+        {
+          "id": "EP1",
+          "category": "entity_presence",
+          "type": "manual",
+          "weight": 4,
+          "question": "Does your brand have a clearly identifiable official website or primary digital home?",
+          "description": "AI systems need a reliable primary source to understand what the brand is, what it offers and where it officially exists online.",
+          "positive_feedback": "Your brand has a recognizable primary digital entity foundation.",
+          "negative_feedback": "Your brand lacks a clear primary digital entity source, which may make it harder for AI systems to identify and understand it."
+        },
+        {
+          "id": "EP2",
+          "category": "entity_presence",
+          "type": "manual",
+          "weight": 4,
+          "question": "Does your website clearly explain who the brand is, what it does and who it serves?",
+          "description": "A brand must be understandable not only to users but also to search engines and AI systems.",
+          "positive_feedback": "Your brand identity and purpose are clearly communicated.",
+          "negative_feedback": "Your brand identity may be unclear, which can weaken machine understanding and digital perception."
+        },
+        {
+          "id": "EP3",
+          "category": "entity_presence",
+          "type": "manual",
+          "weight": 4,
+          "question": "Does your brand have identifiable people, experts, founders or representatives associated with its expertise?",
+          "description": "People connected to a brand help strengthen trust, expertise and entity association.",
+          "positive_feedback": "Your brand benefits from visible human expertise and representation.",
+          "negative_feedback": "Your brand appears less human and less attributable, which can reduce trust and authority signals."
+        },
+        {
+          "id": "EP4",
+          "category": "entity_presence",
+          "type": "manual",
+          "weight": 4,
+          "question": "Is your brand identity consistent across your website, social profiles and external platforms?",
+          "description": "Consistency across digital surfaces helps AI systems connect scattered signals into one recognizable entity.",
+          "positive_feedback": "Your brand identity appears consistent across digital platforms.",
+          "negative_feedback": "Inconsistent brand identity may fragment your digital entity and weaken recognition."
+        },
+        {
+          "id": "EP5",
+          "category": "entity_presence",
+          "type": "manual",
+          "weight": 4,
+          "question": "Can users and machines easily find essential business information such as contact details, location, services or company information?",
+          "description": "Accessible business information strengthens entity clarity and trust.",
+          "positive_feedback": "Your essential business information is discoverable and supports entity clarity.",
+          "negative_feedback": "Missing or hard-to-find business information may weaken trust and entity recognition."
+        }
+      ]
+    },
+    {
+      "id": "authority_signals",
+      "name": "Authority Signals",
+      "description": "Measures whether the brand has external credibility signals that support trust and recognition.",
+      "questions": [
+        {
+          "id": "AS1",
+          "category": "authority_signals",
+          "type": "manual",
+          "weight": 4,
+          "question": "Has your brand been mentioned by trusted third-party websites, media sources or industry publications?",
+          "description": "Third-party mentions help AI systems validate that a brand exists beyond its own website.",
+          "positive_feedback": "Your brand has external credibility signals from third-party sources.",
+          "negative_feedback": "Your brand may lack independent validation from external sources."
+        },
+        {
+          "id": "AS2",
+          "category": "authority_signals",
+          "type": "manual",
+          "weight": 4,
+          "question": "Is your brand listed on relevant professional, local, industry or business platforms?",
+          "description": "Relevant listings help reinforce the brand's existence, category and legitimacy.",
+          "positive_feedback": "Your brand has useful platform-level authority signals.",
+          "negative_feedback": "Your brand may be underrepresented in external directories and professional ecosystems."
+        },
+        {
+          "id": "AS3",
+          "category": "authority_signals",
+          "type": "manual",
+          "weight": 4,
+          "question": "Do external sources describe your brand in a way that matches your intended positioning?",
+          "description": "AI systems often learn from external descriptions, not only from your own website.",
+          "positive_feedback": "External descriptions appear aligned with your intended brand positioning.",
+          "negative_feedback": "External descriptions may be weak, inconsistent or misaligned with your desired perception."
+        },
+        {
+          "id": "AS4",
+          "category": "authority_signals",
+          "type": "manual",
+          "weight": 4,
+          "question": "Does your brand demonstrate expertise through expert content, interviews, reports, talks or professional contributions?",
+          "description": "Expert-led signals help strengthen authority and topical credibility.",
+          "positive_feedback": "Your brand demonstrates expertise through visible professional contributions.",
+          "negative_feedback": "Your brand lacks enough visible expert-led authority signals."
+        },
+        {
+          "id": "AS5",
+          "category": "authority_signals",
+          "type": "manual",
+          "weight": 4,
+          "question": "Does your website receive links, citations or references from relevant and trusted sources?",
+          "description": "Links and citations remain important credibility signals for both search engines and AI systems.",
+          "positive_feedback": "Your brand benefits from external references that support authority.",
+          "negative_feedback": "Your brand may lack enough trusted references to strengthen authority perception."
+        }
+      ]
+    },
+    {
+      "id": "knowledge_layer",
+      "name": "Knowledge Layer",
+      "description": "Measures whether the brand publishes structured, useful and machine-readable knowledge.",
+      "questions": [
+        {
+          "id": "KL1",
+          "category": "knowledge_layer",
+          "type": "manual",
+          "weight": 4,
+          "question": "Can users easily find answers to common questions about your products, services or expertise?",
+          "description": "Question-answer content helps AI systems understand user intent and brand relevance.",
+          "positive_feedback": "Your brand provides useful answers that support AI understanding.",
+          "negative_feedback": "Your brand lacks accessible question-answer content, which may reduce AI visibility."
+        },
+        {
+          "id": "KL2",
+          "category": "knowledge_layer",
+          "type": "manual",
+          "weight": 4,
+          "question": "Do your product or service pages provide detailed explanations instead of short generic descriptions?",
+          "description": "Detailed pages give AI systems more context for understanding what the brand offers.",
+          "positive_feedback": "Your product or service pages provide enough contextual depth.",
+          "negative_feedback": "Your product or service pages may be too thin for strong AI interpretation."
+        },
+        {
+          "id": "KL3",
+          "category": "knowledge_layer",
+          "type": "manual",
+          "weight": 4,
+          "question": "Does your brand regularly publish educational content, guides, insights or thought leadership?",
+          "description": "Ongoing knowledge production strengthens topical relevance and expertise.",
+          "positive_feedback": "Your brand actively builds a knowledge layer around its expertise.",
+          "negative_feedback": "Your brand may lack enough educational content to build topical authority."
+        },
+        {
+          "id": "KL4",
+          "category": "knowledge_layer",
+          "type": "manual",
+          "weight": 4,
+          "question": "Is your content organized with clear headings, categories, internal links and logical structure?",
+          "description": "Semantic organization helps users, crawlers and AI systems understand relationships between topics.",
+          "positive_feedback": "Your content structure supports semantic understanding.",
+          "negative_feedback": "Your content may be difficult for machines to interpret due to weak structure."
+        },
+        {
+          "id": "KL5",
+          "category": "knowledge_layer",
+          "type": "manual",
+          "weight": 4,
+          "question": "Does your website use structured data, schema markup or other machine-readable signals where appropriate?",
+          "description": "Structured data can help search engines and AI systems interpret entities, content and business information.",
+          "positive_feedback": "Your website appears to support machine-readable interpretation.",
+          "negative_feedback": "Your website may lack structured signals that help machines understand your content."
+        }
+      ]
+    },
+    {
+      "id": "ai_visibility",
+      "name": "AI Visibility",
+      "description": "Measures whether the brand is visible, accurate and discoverable in AI-driven search and answer systems.",
+      "questions": [
+        {
+          "id": "AV1",
+          "category": "ai_visibility",
+          "type": "manual",
+          "weight": 4,
+          "question": "Have you checked how your brand appears in AI assistants or AI search tools?",
+          "description": "Brands need to monitor how they are represented in AI-generated environments.",
+          "positive_feedback": "Your brand is already monitoring its AI visibility.",
+          "negative_feedback": "Your brand may not yet know how it appears in AI-generated answers."
+        },
+        {
+          "id": "AV2",
+          "category": "ai_visibility",
+          "type": "manual",
+          "weight": 4,
+          "question": "When AI systems mention your brand, is the information accurate and aligned with reality?",
+          "description": "Accuracy is critical because incorrect AI-generated descriptions can damage perception.",
+          "positive_feedback": "Your AI representation appears accurate and aligned.",
+          "negative_feedback": "Your brand may be misrepresented or insufficiently understood by AI systems."
+        },
+        {
+          "id": "AV3",
+          "category": "ai_visibility",
+          "type": "manual",
+          "weight": 4,
+          "question": "Does your brand appear in AI-generated answers for relevant category, service or problem-based searches?",
+          "description": "The strongest AI visibility comes from being recommended in non-branded queries.",
+          "positive_feedback": "Your brand has visibility beyond direct brand-name searches.",
+          "negative_feedback": "Your brand may not appear in relevant AI-generated category or problem-based answers."
+        },
+        {
+          "id": "AV4",
+          "category": "ai_visibility",
+          "type": "manual",
+          "weight": 4,
+          "question": "Do AI systems connect your brand with the right topics, services, locations or expertise areas?",
+          "description": "Correct topical association helps AI systems recommend the brand in relevant contexts.",
+          "positive_feedback": "Your brand is associated with relevant topics and expertise areas.",
+          "negative_feedback": "AI systems may not clearly associate your brand with the right topics or services."
+        },
+        {
+          "id": "AV5",
+          "category": "ai_visibility",
+          "type": "manual",
+          "weight": 4,
+          "question": "Have you intentionally optimized your digital presence for AI search, answer engines or generative discovery?",
+          "description": "Intentional AI visibility work turns passive online presence into an active perception strategy.",
+          "positive_feedback": "Your brand has started building an intentional AI visibility strategy.",
+          "negative_feedback": "Your brand may still rely on traditional SEO without adapting to AI-driven discovery."
+        }
+      ]
+    },
+    {
+      "id": "perception_layer",
+      "name": "Perception Layer",
+      "description": "Measures whether the brand creates a clear, trustworthy and differentiated digital perception.",
+      "questions": [
+        {
+          "id": "PL1",
+          "category": "perception_layer",
+          "type": "manual",
+          "weight": 4,
+          "question": "Does your brand communicate a clear and specific positioning statement?",
+          "description": "Clear positioning helps users and AI systems understand what the brand should be known for.",
+          "positive_feedback": "Your brand positioning is clear and recognizable.",
+          "negative_feedback": "Your brand positioning may be too vague or generic."
+        },
+        {
+          "id": "PL2",
+          "category": "perception_layer",
+          "type": "manual",
+          "weight": 4,
+          "question": "Is your brand message consistent across your website, social media, profiles and external mentions?",
+          "description": "Consistent messaging strengthens digital perception and reduces ambiguity.",
+          "positive_feedback": "Your brand message is consistent across digital surfaces.",
+          "negative_feedback": "Your brand message may be fragmented across different platforms."
+        },
+        {
+          "id": "PL3",
+          "category": "perception_layer",
+          "type": "manual",
+          "weight": 4,
+          "question": "Does your brand publicly show trust signals such as reviews, testimonials, client logos, certifications or proof of work?",
+          "description": "Visible trust signals make the brand more credible to users and AI systems.",
+          "positive_feedback": "Your brand displays trust signals that support credibility.",
+          "negative_feedback": "Your brand may not provide enough visible proof to support trust."
+        },
+        {
+          "id": "PL4",
+          "category": "perception_layer",
+          "type": "manual",
+          "weight": 4,
+          "question": "Does your brand publish case studies, success stories, examples or measurable outcomes?",
+          "description": "Proof-based content strengthens perceived competence and helps differentiate the brand.",
+          "positive_feedback": "Your brand provides evidence of real outcomes and practical value.",
+          "negative_feedback": "Your brand may lack proof-based content that demonstrates real-world value."
+        },
+        {
+          "id": "PL5",
+          "category": "perception_layer",
+          "type": "manual",
+          "weight": 4,
+          "question": "Would a first-time visitor quickly understand why your brand is different from alternatives?",
+          "description": "Differentiation is essential for strong digital perception and AI-assisted recommendation.",
+          "positive_feedback": "Your brand communicates a clear reason to be chosen.",
+          "negative_feedback": "Your brand differentiation may not be strong enough for users or AI systems to recognize."
+        }
+      ]
+    }
+  ]
 }
+```
