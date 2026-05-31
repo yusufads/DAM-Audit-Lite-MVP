@@ -43,16 +43,3 @@ Each question is represented as a structured object.
     }
   }
 }
-
-Field Definitions
-id
-
-Unique identifier for the question.
-
-Examples:
-
-EP1
-AS2
-KL3
-AV4
-PL5
