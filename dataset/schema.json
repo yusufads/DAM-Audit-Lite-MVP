@@ -1,0 +1,21 @@
+{
+  "id":"",
+  "brand":"",
+  "domain":"",
+  "sector":"",
+
+  "company_size":"",
+  "country":"",
+
+  "entity_score":0,
+  "authority_score":0,
+  "knowledge_score":0,
+  "ai_visibility_score":0,
+  "perception_score":0,
+
+  "total_score":0,
+
+  "answers":[],
+
+  "created_at":""
+}
