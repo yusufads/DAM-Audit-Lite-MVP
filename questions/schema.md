@@ -43,3 +43,68 @@ Each question is represented as a structured object.
     }
   }
 }
+
+
+# Question Object Schema
+
+## Required Fields
+
+| Field       | Type    | Description                           |
+| ----------- | ------- | ------------------------------------- |
+| id          | string  | Unique question identifier            |
+| category    | string  | DAM category                          |
+| signal      | string  | Signal being measured                 |
+| type        | string  | manual, automatic or hybrid           |
+| weight      | integer | Question weight                       |
+| question    | object  | Localized question text               |
+| description | object  | Localized explanation                 |
+| feedback    | object  | Positive and negative report messages |
+
+---
+
+## Categories
+
+* entity_presence
+* authority_signals
+* knowledge_layer
+* ai_visibility
+* perception_layer
+
+---
+
+## Question Types
+
+* manual
+* automatic
+* hybrid
+
+---
+
+## Answer Values
+
+| Answer    | Value |
+| --------- | ----- |
+| No        | 0     |
+| Partially | 2     |
+| Yes       | 4     |
+
+---
+
+## Dataset Mapping
+
+Each answer record should store:
+
+* question_id
+* category
+* signal
+* answer
+
+---
+
+## Version 1.0 Rules
+
+* 25 questions
+* 5 categories
+* 5 questions per category
+* Equal weight scoring
+* Maximum score: 100
