@@ -1,193 +1,426 @@
 # DAM Audit Lite Question Bank v1.0
 
-## Entity Presence
+## Overview
+
+This document contains the official DAM Audit Lite question bank.
+
+Each question measures a specific GEO-DAM signal.
+
+Question Structure:
+
+* Signal
+* Question
+* Why It Matters
+* Positive Finding
+* Negative Finding
 
 ---
 
-### EP1
+# ENTITY PRESENCE
 
-Signal: entity_foundation
+## EP1
 
-Question EN:
+Signal:
+entity_foundation
 
-Does your brand have a clearly identifiable official website or primary digital home?
+Question:
 
-Question TR:
+Does your brand have a clearly identifiable official website that serves as its primary digital source?
 
-Markanızın açık şekilde tanımlanabilen resmi bir web sitesi veya dijital merkezi bulunuyor mu?
+Why It Matters:
 
-Description EN:
+AI systems need a trusted source to understand, verify and connect information about a brand.
 
-AI systems need a reliable primary source to understand, verify and connect information about a brand.
+Positive Finding:
 
-Description TR:
+Your brand has a strong primary digital entity foundation.
 
-Yapay zekâ sistemleri bir markayı anlamak, doğrulamak ve ilişkilendirmek için güvenilir bir ana kaynağa ihtiyaç duyar.
+Negative Finding:
 
-Positive Report Message EN:
-
-Your brand has a strong digital foundation that supports entity recognition.
-
-Positive Report Message TR:
-
-Markanız dijital varlık tanımlaması açısından güçlü bir temele sahiptir.
-
-Negative Report Message EN:
-
-Your brand lacks a clear primary digital source, making recognition more difficult.
-
-Negative Report Message TR:
-
-Markanızın belirgin bir dijital merkezi bulunmuyor ve bu durum dijital görünürlüğü zayıflatabilir.
+Your brand lacks a clearly identifiable primary digital source.
 
 ---
 
-### EP2
+## EP2
 
-Signal: brand_identity
+Signal:
+brand_identity
 
-Question EN:
+Question:
 
-Does your website clearly explain who your brand is, what it does and who it serves?
+Can a first-time visitor immediately understand who your brand is, what it does and who it serves?
 
-Question TR:
+Why It Matters:
 
-Web siteniz markanızın kim olduğunu, ne yaptığını ve kime hizmet verdiğini açık şekilde anlatıyor mu?
+Brands that clearly communicate their identity are easier for users and AI systems to understand.
 
-Description EN:
+Positive Finding:
 
-Clear brand identity improves understanding for both users and AI systems.
+Your brand identity is clearly defined and communicated.
 
-Description TR:
+Negative Finding:
 
-Net bir marka kimliği hem kullanıcıların hem de yapay zekâ sistemlerinin markayı doğru anlamasını sağlar.
-
-Positive Report Message EN:
-
-Your brand identity is clearly communicated across your primary digital assets.
-
-Positive Report Message TR:
-
-Marka kimliğiniz dijital varlıklarınız üzerinde net şekilde tanımlanmıştır.
-
-Negative Report Message EN:
-
-Your brand identity may be difficult for users and AI systems to understand.
-
-Negative Report Message TR:
-
-Marka kimliğiniz yeterince net olmadığı için kullanıcılar ve yapay zekâ sistemleri sizi doğru konumlandıramayabilir.
+Your brand identity may be unclear or difficult to interpret.
 
 ---
 
-### EP3
+## EP3
 
-Signal: expert_association
+Signal:
+expert_association
 
-Question EN:
+Question:
 
 Are identifiable experts, founders or representatives publicly associated with your brand?
 
-Question TR:
+Why It Matters:
 
-Markanızla ilişkilendirilebilen kurucu, uzman veya temsilciler kamuya açık şekilde görünür durumda mı?
+Visible expertise strengthens authority, trust and entity recognition.
 
-Description EN:
-
-Visible human expertise strengthens trust, authority and entity association.
-
-Description TR:
-
-Görünür uzmanlık ve insan faktörü marka güvenilirliğini ve otoritesini artırır.
-
-Positive Report Message EN:
+Positive Finding:
 
 Your brand benefits from visible expertise and leadership.
 
-Positive Report Message TR:
+Negative Finding:
 
-Markanız görünür uzmanlık ve liderlik unsurlarından faydalanmaktadır.
-
-Negative Report Message EN:
-
-Your brand lacks visible human expertise signals.
-
-Negative Report Message TR:
-
-Markanızın arkasındaki uzmanlık ve liderlik yeterince görünür değildir.
+Your brand lacks strong human expertise signals.
 
 ---
 
-### EP4
+## EP4
 
-Signal: cross_platform_consistency
+Signal:
+cross_platform_consistency
 
-Question EN:
+Question:
 
-Is your brand identity consistent across your website, social media profiles and external platforms?
+Does your brand maintain a consistent identity across websites, social profiles and external platforms?
 
-Question TR:
+Why It Matters:
 
-Marka kimliğiniz web siteniz, sosyal medya hesaplarınız ve dış platformlarda tutarlı şekilde kullanılıyor mu?
+Consistency helps AI systems connect fragmented signals into a unified entity.
 
-Description EN:
+Positive Finding:
 
-Consistency helps AI systems merge signals from multiple sources into a single entity.
+Your brand demonstrates strong cross-platform consistency.
 
-Description TR:
+Negative Finding:
 
-Tutarlılık, yapay zekâ sistemlerinin farklı kaynaklardan gelen sinyalleri tek bir marka altında birleştirmesine yardımcı olur.
-
-Positive Report Message EN:
-
-Your brand maintains strong consistency across digital channels.
-
-Positive Report Message TR:
-
-Markanız dijital kanallar arasında yüksek düzeyde tutarlılık göstermektedir.
-
-Negative Report Message EN:
-
-Inconsistent branding may weaken entity recognition and trust.
-
-Negative Report Message TR:
-
-Tutarsız marka kullanımı dijital algıyı ve marka tanınırlığını zayıflatabilir.
+Your brand identity may appear fragmented across digital channels.
 
 ---
 
-### EP5
+## EP5
 
-Signal: business_legitimacy
+Signal:
+business_legitimacy
 
-Question EN:
+Question:
 
-Can visitors easily find business information such as contact details, company information and location?
+Can users easily verify your business through contact information, company details and public trust indicators?
 
-Question TR:
+Why It Matters:
 
-Ziyaretçiler iletişim bilgileri, şirket bilgileri ve konum gibi kurumsal bilgilere kolayca ulaşabiliyor mu?
+Verification signals improve legitimacy and confidence.
 
-Description EN:
+Positive Finding:
 
-Accessible business information improves legitimacy, trust and discoverability.
+Your brand provides clear legitimacy and trust signals.
 
-Description TR:
+Negative Finding:
 
-Erişilebilir kurumsal bilgiler güven, meşruiyet ve keşfedilebilirlik açısından önemlidir.
+Your brand may lack enough publicly visible legitimacy signals.
 
-Positive Report Message EN:
+---
 
-Your business information supports trust and legitimacy.
+# AUTHORITY SIGNALS
 
-Positive Report Message TR:
+## AS1
 
-Kurumsal bilgileriniz güven ve meşruiyet algısını desteklemektedir.
+Signal:
+external_validation
 
-Negative Report Message EN:
+Question:
 
-Missing business information may reduce trust and credibility.
+Has your brand been referenced, mentioned or acknowledged by independent third-party sources?
 
-Negative Report Message TR:
+Why It Matters:
 
-Eksik kurumsal bilgiler marka güvenilirliğini olumsuz etkileyebilir.
+External validation increases credibility and trust.
+
+Positive Finding:
+
+Your brand benefits from independent validation.
+
+Negative Finding:
+
+Your brand lacks sufficient third-party validation.
+
+---
+
+## AS2
+
+Signal:
+citation_strength
+
+Question:
+
+Do trusted websites, organizations or industry sources reference your brand?
+
+Why It Matters:
+
+Citations help reinforce authority and recognition.
+
+Positive Finding:
+
+Your brand receives valuable external citations.
+
+Negative Finding:
+
+Your brand has limited citation strength.
+
+---
+
+## AS3
+
+Signal:
+media_presence
+
+Question:
+
+Has your brand appeared in news publications, industry media or professional publications?
+
+Why It Matters:
+
+Media presence strengthens authority and discoverability.
+
+Positive Finding:
+
+Your brand demonstrates meaningful media visibility.
+
+Negative Finding:
+
+Your brand has limited media exposure.
+
+---
+
+## AS4
+
+Signal:
+expert_authority
+
+Question:
+
+Do experts associated with your brand publish knowledge, insights or professional contributions?
+
+Why It Matters:
+
+Expert-led content strengthens topical authority.
+
+Positive Finding:
+
+Your brand demonstrates visible expert authority.
+
+Negative Finding:
+
+Your brand lacks sufficient expert-driven authority signals.
+
+---
+
+## AS5
+
+Signal:
+industry_recognition
+
+Question:
+
+Is your brand recognized within its industry, niche or professional ecosystem?
+
+Why It Matters:
+
+Industry recognition supports credibility and trust.
+
+Positive Finding:
+
+Your brand has established industry recognition.
+
+Negative Finding:
+
+Your brand has limited recognition within its industry.
+
+---
+
+# KNOWLEDGE LAYER
+
+## KL1
+
+Signal:
+knowledge_depth
+
+Question:
+
+Does your website provide detailed and comprehensive information about your products, services or expertise?
+
+...
+
+## KL2
+
+Signal:
+faq_coverage
+
+Question:
+
+Can users easily find answers to common questions related to your business?
+
+...
+
+## KL3
+
+Signal:
+semantic_structure
+
+Question:
+
+Is your content organized using logical structure, categories and clear topic relationships?
+
+...
+
+## KL4
+
+Signal:
+content_authority
+
+Question:
+
+Does your brand regularly publish educational, expert-level or thought leadership content?
+
+...
+
+## KL5
+
+Signal:
+machine_readability
+
+Question:
+
+Is your content structured in a way that search engines and AI systems can easily interpret?
+
+...
+
+---
+
+# AI VISIBILITY
+
+## AV1
+
+Signal:
+ai_discoverability
+
+Question:
+
+Can AI systems reliably discover and identify your brand?
+
+...
+
+## AV2
+
+Signal:
+ai_accuracy
+
+Question:
+
+When AI systems mention your brand, is the information accurate and up-to-date?
+
+...
+
+## AV3
+
+Signal:
+ai_association
+
+Question:
+
+Do AI systems associate your brand with the topics, services and expertise areas you want to be known for?
+
+...
+
+## AV4
+
+Signal:
+ai_recommendation
+
+Question:
+
+Can your brand appear as a recommendation in relevant AI-generated answers?
+
+...
+
+## AV5
+
+Signal:
+ai_optimization
+
+Question:
+
+Have you intentionally optimized your digital presence for AI search and generative discovery?
+
+...
+
+---
+
+# PERCEPTION LAYER
+
+## PL1
+
+Signal:
+trust_signals
+
+Question:
+
+Does your brand visibly demonstrate trust through reviews, testimonials, certifications or credentials?
+
+...
+
+## PL2
+
+Signal:
+proof_signals
+
+Question:
+
+Does your brand provide evidence of expertise, outcomes or successful work?
+
+...
+
+## PL3
+
+Signal:
+differentiation
+
+Question:
+
+Can users clearly understand what makes your brand different from competitors?
+
+...
+
+## PL4
+
+Signal:
+positioning_clarity
+
+Question:
+
+Does your brand communicate a clear and focused market position?
+
+...
+
+## PL5
+
+Signal:
+reputation_consistency
+
+Question:
+
+Is your brand perceived consistently across multiple digital touchpoints?
+
+...
